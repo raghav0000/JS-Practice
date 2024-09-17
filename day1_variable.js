@@ -17,3 +17,15 @@ console.table([num1, name2, password]);
 
 console.log(typeof name2);
 console.log(typeof 1234);
+
+
+
+
+let number = "345"; // string
+let isActualNumber = Number(number);  // conver string into a number 
+console.log(isActualNumber);
+
+let someNumber = 33;
+let isString = String(someNumber);
+console.log(isString);
+console.log(typeof isString);
